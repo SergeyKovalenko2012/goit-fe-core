@@ -1,0 +1,144 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.body {
+  width: 1110px;
+  margin: 0;
+}
+
+.body {
+  font-family: "Roboto", "Open sans" sans-serif;
+  color: #555252;
+  font-size: 14px;
+}
+.conteiner {
+  width: 1110px;
+  margin: 0 auto;
+}
+/* .logo {
+  margin: 0;
+  padding: 0;
+} */
+
+.logo {
+  margin-left: 262px;
+  padding-top: 39px;
+}
+
+.logo {
+  font-size: 30px;
+  line-height: 32px;
+  color: #555252;
+  text-decoration: none;
+  font-weight: 900;
+  font-family: sans-serif, "Roboto";
+}
+
+.navigation_list {
+  padding-top: 42px;
+  margin-bottom: 99px;
+}
+
+.navigation_list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+  font-size: 0;
+}
+
+.navigation_list li {
+  display: inline-block;
+}
+
+.navigation_list a {
+  font-size: 14px;
+  line-height: 11px;
+  color: #0f0101;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Open sans", sans-serif;
+}
+
+.navigation_list_item:not(:nth-child(6n)) {
+  margin-right: 36px;
+}
+
+.navigation_list a:focus,
+.navigation_list a:hover {
+  color: #1abc9c;
+}
+h2 {
+  font-size: 48px;
+  margin-left: 328px;
+  padding-top: 99px;
+  margin-bottom: 122px;
+  font-family: "Roboto", sans-serif;
+  color: #515151;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main_conteiner {
+  width: 1110px;
+  margin: 0 auto;
+}
+.products {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+}
+.fatured_list_item {
+  width: 255px;
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.fatured_list_item:nth-child(4n) {
+  margin-right: 0;
+}
+.latest_list_item {
+  width: 345px;
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 47px;
+}
+
+.latest_list_item:nth-child(3n) {
+  margin-right: 0;
+}
+.lorem {
+  font-size: 18px;
+  font-family: "Open sans", sans-serif;
+  color: #555252;
+  font-weight: 600;
+}
+
+.nam {
+  font-size: 14px;
+  font-family: "Open sans", sans-serif;
+  color: #555252;
+  font-weight: 400;
+}
+.button {
+  display: block;
+  text-align: left;
+}
+.click {
+  color: #ffffff;
+  width: 160px;
+  height: 52px;
+  background: #4ec6ab;
+}
