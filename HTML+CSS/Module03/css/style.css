@@ -122,11 +122,13 @@ p {
   text-align: center;
 }
 .click {
-  width: 163px;
-  height: 59px;
+  width: 166px;
+  height: 60px;
+  border: 1px solid #626262;
+  background-color: #fff;
   font-family: "Playfair Display";
   color: #626262;
   font-size: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 68px;
   cursor: pointer;
 }
