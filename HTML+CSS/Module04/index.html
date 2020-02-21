@@ -11,14 +11,18 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto:900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="CSS/style.css" />
     <title>Module04</title>
   </head>
   <body>
-    <header>
-      <a href="#" class="logo">MART</a>
+    <header class="header">
       <nav class="navigation conteiner">
-        <ul class="navigation_list">
+        <a href="#" class="logo">MART</a>
+        <ul class="navigation_list clearfix">
           <li class="navigation_list_item"><a href="#">Home</a></li>
           <li class="navigation_list_item"><a href="#">About us</a></li>
           <li class="navigation_list_item"><a href="#">Page</a></li>
@@ -29,41 +33,75 @@
       </nav>
     </header>
     <main class="main conteiner">
-      <h1 hidden>main</h1>
-      <h2 class="hatured_products">Fatured Products</h2>
       <section class="products">
-        <ul class="fatured_list">
+        <h1 hidden>main</h1>
+        <h2 class="hatured_products">Fatured Products</h2>
+
+        <ul class="fatured_list clearfix">
           <li class="fatured_list_item">
             <img src="./img/product1.png" alt="photo1" />
+            <div class="entire">
+              <p class="product title">Blue Tshirt</p>
+              <p class="product price">$26</p>
+            </div>
           </li>
           <li class="fatured_list_item">
             <img src="./img/product2.png" alt="photo2" />
+            <div class="entire">
+              <p class="product title">WOMAN Shirt</p>
+              <p class="product price">$31</p>
+            </div>
           </li>
           <li class="fatured_list_item">
             <img src="./img/product3.png" alt="photo3" />
+            <div class="entire">
+              <p class="product title">YELLOW Tshirt</p>
+              <p class="product price">$21</p>
+            </div>
           </li>
           <li class="fatured_list_item">
             <img src="./img/product4.png" alt="photo4" />
+            <div class="entire">
+              <p class="product title">Cool Lingerie</p>
+              <p class="product price">$56</p>
+            </div>
           </li>
           <li class="fatured_list_item">
             <img src="./img/product5.png" alt="photo5" />
+            <div class="entire">
+              <p class="product title">Blue Tshirt</p>
+              <p class="product price">$26</p>
+            </div>
           </li>
           <li class="fatured_list_item">
             <img src="./img/product6.png" alt="photo6" />
+            <div class="entire">
+              <p class="product title">WOMAN Shirt</p>
+              <p class="product price">$31</p>
+            </div>
           </li>
           <li class="fatured_list_item">
             <img src="./img/product7.png" alt="photo7" />
+            <div class="entire">
+              <p class="product title">YELLOW Tshirt</p>
+              <p class="product price">$21</p>
+            </div>
           </li>
           <li class="fatured_list_item">
             <img src="./img/product8.png" alt="photo8" />
+            <div class="entire">
+              <p class="product title">Cool lingerie</p>
+              <p class="product price">$56</p>
+            </div>
           </li>
         </ul>
       </section>
-      <h2 class="latest_news">Latest News</h2>
       <section class="latest">
+        <h2 class="hatured_products">Latest News</h2>
+
         <ul class="latest_list">
           <li class="latest_list_item">
-            <img src="./img/img_blog/blog1.png" alt="img1" />
+            <img src="./img/img_blog/blog1.jpg" alt="img1" />
             <p class="lorem">
               Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
             </p>
@@ -77,7 +115,7 @@
             </div>
           </li>
           <li class="latest_list_item">
-            <img src="./img/img_blog/blog2.png" alt="img2" />
+            <img src="./img/img_blog/blog2.jpg" alt="img2" />
             <p class="lorem">
               Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
             </p>
@@ -91,7 +129,7 @@
             </div>
           </li>
           <li class="latest_list_item">
-            <img src="./img/img_blog/blog3.png" alt="img3" />
+            <img src="./img/img_blog/blog3.jpg" alt="img3" />
             <p class="lorem">
               Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
             </p>
