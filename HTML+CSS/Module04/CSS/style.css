@@ -122,6 +122,10 @@ h2 {
   float: left;
 }
 
+.entire {
+  margin-top: -4px;
+}
+
 .product {
   font-size: 18px;
   font-family: sans-serif, "Roboto";
@@ -133,40 +137,35 @@ h2 {
   /* width: 255px; */
   /* height: 40px; */
 }
-.title {
-  margin-top: -5px;
-}
 
 .title {
   font-weight: 900;
   float: left;
   width: 201px;
-  height: 39px;
+  height: 40px;
   padding-left: 14px;
-  padding-top: 4px;
+  line-height: 40px;
   text-transform: uppercase;
 }
 
 .price {
-  margin-top: -5px;
-}
-.price {
   font-weight: 900;
   float: right;
   width: 54px;
-  height: 39px;
+  height: 40px;
   text-align: center;
   color: #ffffff;
+  line-height: 40px;
 }
 
 .price {
   opacity: 0.5;
 }
 
-.entire:hover .title {
+.fatured_list_item:hover .title {
   background-color: #1abc9c;
 }
-.entire:hover .price {
+.fatured_list_item:hover .price {
   background-color: #1abc9c;
 }
 
@@ -239,4 +238,5 @@ h2 {
   font-size: 16px;
   font-weight: 300;
   font-family: "Open Sans";
+  cursor: pointer;
 }
