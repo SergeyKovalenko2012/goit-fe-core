@@ -238,8 +238,9 @@ h1::after {
   width: 160px;
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
-  bottom: 32px;
+  bottom: 5%;
+  transform: translate(-50%, -50%);
+
   list-style: none;
 }
 .overlay_list-buttom {
