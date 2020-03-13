@@ -1,0 +1,181 @@
+html {
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0 auto;
+}
+
+body {
+  line-height: 1.2;
+}
+
+.conteiner {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  height: 115px;
+  align-items: center;
+}
+
+.logo {
+  font-size: 26px;
+  font-family: "Great Vibes";
+  text-decoration: none;
+  color: #fed136;
+  font-weight: 700;
+}
+
+.navigation_list {
+  display: flex;
+  justify-content: space-between;
+  width: 485px;
+  list-style: none;
+  text-transform: uppercase;
+  color: #222222;
+  font-size: 14px;
+  font-family: "Montserrat";
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.navigation_list_item:focus,
+.navigation_list_item:hover {
+  color: #fed136;
+}
+
+.zagolov_service,
+.zagolov_contact {
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 64px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 75px;
+}
+.zagolov_text {
+  font-family: "Arvo";
+  font-size: 16px;
+  font-weight: 400;
+  color: #777777;
+  font-style: italic;
+}
+
+.service_list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-bottom: 120px;
+}
+
+.service_list_item {
+  display: block;
+  text-align: center;
+  width: 290px;
+}
+
+.direction {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(34, 34, 34);
+  font-weight: 700;
+  line-height: 2;
+}
+
+.value {
+  font-size: 14px;
+  font-family: "Roboto Slab";
+  color: rgb(119, 119, 119);
+  line-height: 1.5;
+}
+
+.contact {
+  background-image: url(../IMG/MapImage.jpg);
+  width: 100%;
+  height: 676px;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+}
+
+.zagolov_contact {
+  color: #ffffff;
+}
+
+.contact_form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_form_input {
+  height: 52px;
+  width: 455px;
+  border: 0 solid;
+  border-radius: 3px;
+  padding-left: 20px;
+  margin-bottom: 27px;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(187, 187, 187);
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:required:focus:valid {
+  border: 2px solid green;
+}
+
+input:required:focus:invalid {
+  border: 2px solid red;
+}
+
+.contact_form_message {
+  flex-basis: 100%;
+  resize: none;
+  height: 210px;
+  width: 455px;
+  border: 0 solid;
+  border-radius: 3px;
+  padding-left: 20px;
+  padding-top: 18px;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(187, 187, 187);
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.click {
+  margin-left: 38%;
+  width: 240px;
+  height: 66px;
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  background-color: #fed136;
+  border-radius: 3px;
+  border: 0 solid;
+  cursor: pointer;
+}
