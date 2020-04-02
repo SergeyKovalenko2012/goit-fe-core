@@ -1,0 +1,249 @@
+html {
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  margin: 0;
+  box-sizing: inherit;
+}
+body {
+  line-height: 1.2;
+}
+
+.conteiner {
+  width: 320px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.logo {
+  display: block;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  transform: translate(-25px, 185px);
+}
+
+.navigation_list {
+  padding-top: 20px;
+  list-style: none;
+  margin-bottom: 170px;
+}
+
+.navigation_list_item {
+  display: inline-block;
+}
+
+.navigation_button {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 700;
+  border: 0 solid;
+  border-radius: 20px;
+  height: 36px;
+  width: 90px;
+  cursor: pointer;
+  background-color: rgba(20, 20, 20, 0);
+}
+
+.navigation_button:focus,
+.navigation_button:hover {
+  border: 2px solid;
+}
+.shear {
+  background-image: url(../img/bgi.jpg);
+  width: 100%;
+  height: 540px;
+  background-position: center;
+}
+
+h1 {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 292px;
+  margin: 0 auto;
+  /* transform: translateX(43%); */
+  margin-bottom: 18px;
+}
+
+.zagolov {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.zagolov_text {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 100;
+  width: 218px;
+  /* transform: translateX(17%); */
+  margin-bottom: 18px;
+  margin: 0 auto;
+}
+
+.zagolov_button {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 700;
+  background-color: #ff4e50;
+  border-radius: 20px;
+  border: 0 solid;
+  height: 40px;
+  width: 280px;
+  cursor: pointer;
+  margin-bottom: 138px;
+  margin-top: 18px;
+  /* margin: 0 auto; */
+}
+
+h3 {
+  font-size: 22px;
+  color: #333333;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-align: center;
+  padding-top: 74px;
+  margin-bottom: 14px;
+}
+
+.friend_list {
+  list-style: none;
+}
+
+.friend_list_item {
+  display: block;
+  width: 220px;
+  text-align: center;
+  margin-bottom: 26px;
+}
+
+.friend_name {
+  font-size: 14px;
+  color: #333333;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-align: center;
+  line-height: 2.5;
+}
+
+.friend_info {
+  font-size: 14px;
+  color: #666666;
+  font-family: "Roboto";
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.see {
+  font-size: 14px;
+  color: #ff4e50;
+  font-family: "Montserrat";
+  font-weight: 700;
+  border-radius: 20px;
+  border: 2 solid;
+  border-color: #ff4e50;
+  height: 40px;
+  width: 224px;
+  background-color: #fff;
+  /* margin: 0 auto; */
+  margin-bottom: 58px;
+  cursor: pointer;
+  transform: translateX(18%);
+}
+
+@media (min-width: 680px) {
+  .conteiner {
+    width: 660px;
+    padding: 0 5px;
+  }
+  .shear {
+    width: 100%;
+    height: 700px;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    margin-bottom: 114px;
+  }
+  .navigation_list {
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .logo {
+    padding: 0;
+    transform: translate(0, 0);
+  }
+  h1 {
+    font-size: 52px;
+    width: 512px;
+    /* transform: translateX(57%); */
+  }
+  .zagolov_text {
+    font-size: 24px;
+    width: 410px;
+    /* transform: translateX(94%); */
+  }
+  .zagolov_button {
+    width: 228px;
+    margin-bottom: 232px;
+  }
+  h3 {
+    padding-top: 72px;
+    margin-bottom: 38px;
+  }
+  .friend_list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 84px;
+    padding-right: 84px;
+    margin-bottom: 40px;
+  }
+  .see {
+    transform: translateX(100%);
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 960px) {
+  .conteiner {
+    width: 940px;
+  }
+  .shear {
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+  }
+  h1 {
+    /* transform: translateX(89%); */
+  }
+  .zagolov_text {
+    /* transform: translateX(123%); */
+  }
+  .zagolov_button {
+    /* transform: translateX(25%); */
+    margin-bottom: 234px;
+  }
+  .friend_list {
+    padding: 0;
+  }
+  .see {
+    transform: translateX(170%);
+    margin-bottom: 70px;
+  }
+}
